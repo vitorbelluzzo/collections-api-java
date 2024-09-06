@@ -1,4 +1,4 @@
-package main.java.list;
+package main.java.list.ex1;
 
 public class Tarefa {
     public String getDescricao() {
@@ -7,6 +7,13 @@ public class Tarefa {
 
     public Tarefa(String descricao) {
         this.descricao = descricao;
+    }
+
+    @Override
+    public String toString() {
+        return "Tarefa{" +
+                "descricao='" + descricao + '\'' +
+                '}';
     }
 
     private String descricao;
