@@ -55,6 +55,7 @@ public class ListaTarefas {
     }
 
     public int obterTarefasPendente() {
+//        listaDeTarefa.size();
         int counter = 0;
         for (Tarefa t : listaDeTarefa) {
             if (!t.isConcluida()) {
